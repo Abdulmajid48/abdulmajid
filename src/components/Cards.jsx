@@ -1,6 +1,6 @@
 function Project(props) {
   return (
-    <div className="rounded-2xl flex flex-col justify-center items-center bg-white h-fit p-2 m-5 w-96 max-w-80w font-serif">
+    <div className="rounded-2xl flex flex-col justify-center items-center bg-white h-fit sm:p-2 sm:m-5 sm:w-96 w-10/12 max-w-80w font-serif mt-3">
       <div className="h-auto">
         <img
           src={props.img}
@@ -39,7 +39,7 @@ const projects = [
     name: "Tripace",
     logo: ["./images/bootstrap.png", "./images/react.png"],
     description:
-      " A 17 pages Flight booking platform offering seamless flight reservations along with convenient options for taxi services and hotel accommodations.",
+      " A 17 pages Flight booking platform with taxi services and hotel accommodations.",
     github: "https://github.com/Abdulmajid48/tripace",
     server: "https://tripace.vercel.app/",
   },
@@ -53,7 +53,6 @@ const projects = [
     github: "https://github.com/Abdulmajid48/resultsummary",
     server: "https://resultsummary-topaz.vercel.app/",
   },
-
   {
     img: "./images/todolistapp.png",
     name: "Todo App",

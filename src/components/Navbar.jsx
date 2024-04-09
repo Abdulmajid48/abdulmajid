@@ -3,17 +3,17 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { NavLink } from "react-router-dom";
 
 const navigation = [
-  { name: "Home", href: "#", current: true, to:"/"},
-  { name: "Projects", href: "#", current: false, to:"/projects"},
-  { name: "Experience", href: "#", current: false, to:""},
-  { name: "Achievements", href: "#", current: false, to:""},
+  { name: "Home", href: "#", current: true, to: "/" },
+  { name: "Projects", href: "#", current: false, to: "/projects" },
+  { name: "Experience", href: "#", current: false, to: "" },
+  { name: "Achievements", href: "#", current: false, to: "" },
 ];
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
 
- function Navbar() {
+function Navbar() {
   return (
     <div className="sticky top-0 z-50">
       <Disclosure as="nav" className="bg-gray-800">
