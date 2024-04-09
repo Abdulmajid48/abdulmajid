@@ -9,8 +9,8 @@ function Project(props) {
         />
       </div>
       <div className="flex flex-col justify-center items-center p-6 pt-1">
-        <p className="text-center text-2xl text-black">{props.name}</p>
-        <div className="flex flex-row justify-between items-center gap-4">
+        <p className="text-center text-2xl text-black ">{props.name}</p>
+        <div className="flex flex-row justify-between items-center gap-4 mt-2">
           {props.logo}
         </div>
         <p className="text-center pt-2 pb-2 font-medium text-lg m-1">
