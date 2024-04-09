@@ -89,6 +89,14 @@ const projects = [
     server: "https://drumkit-ecru-one.vercel.app/",
   },
   {
+    img: "./images/mondrian.png",
+    name: "Mondrain Art",
+    logo: ["./images/html.png", "./images/css.png"],
+    description: "A Mondrian Art built with html and css Grid",
+    github: "https://github.com/Abdulmajid48/mondrian",
+    server: "https://mondrian-ivory.vercel.app/",
+  },
+  {
     img: "./images/tindog.png",
     name: "Tindog",
     logo: ["./images/html.png", "./images/css.png", "./images/bootstrap.png"],
@@ -119,14 +127,6 @@ const projects = [
     description: "A Portfolio website built with html and css",
     github: "https://github.com/Abdulmajid48/memeproject",
     server: "https://memeproject-ten.vercel.app/",
-  },
-  {
-    img: "./images/mondrian.png",
-    name: "Mondrain Art",
-    logo: ["./images/html.png", "./images/css.png"],
-    description: "A Mondrian Art built with html and css Grid",
-    github: "https://github.com/Abdulmajid48/mondrian",
-    server: "https://mondrian-ivory.vercel.app/",
   },
 ];
 
