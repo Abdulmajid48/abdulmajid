@@ -17,9 +17,7 @@ function Home(props) {
             />
           </div>
           <div className="text-3xl">Abdul-Majid Aladejana</div>
-          <div className="text-3xl">
-            Software Engineer, Full-Stack Developer, College Student
-          </div>
+          <div className="text-3xl w-11/12">Web developer</div>
           <div className="flex flex-row justify-between text-rose-50 gap-3">
             <div className="">
               <GitHubIcon sx={{ fontSize: 40 }} />
