@@ -2,6 +2,7 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import XIcon from "@mui/icons-material/X";
 import Navbar from "../components/Navbar";
+import { NavLink } from "react-router-dom";
 
 function Home(props) {
   return (
@@ -16,17 +17,31 @@ function Home(props) {
               className="rounded-full h-40 w-40 object-cover"
             />
           </div>
-          <div className="text-3xl">Abdul-Majid Aladejana</div>
+          <div className="text-3xl sm:w-full w-11/12">
+            Abdul-Majid Aladejana
+          </div>
           <div className="text-3xl w-11/12">Web developer</div>
           <div className="flex flex-row justify-between text-rose-50 gap-3">
             <div className="">
-              <GitHubIcon sx={{ fontSize: 40 }} />
+              <NavLink to="https://github.com/Abdulmajid48">
+                {" "}
+                <GitHubIcon sx={{ fontSize: 40 }} style={{ color: "white" }} />
+              </NavLink>{" "}
             </div>
             <div>
-              <LinkedInIcon sx={{ fontSize: 40 }} />
+              <NavLink to="https://www.linkedin.com/in/abdul-majid-aladejana/">
+                {" "}
+                <LinkedInIcon
+                  sx={{ fontSize: 40 }}
+                  style={{ color: "white" }}
+                />
+              </NavLink>
             </div>
             <div>
-              <XIcon sx={{ fontSize: 40 }} />
+              <NavLink to="https://www.x.com/aladejanaamajid">
+                {" "}
+                <XIcon sx={{ fontSize: 40 }} style={{ color: "white" }} />
+              </NavLink>
             </div>
           </div>
           <div className="h-12 w-40 rounded-lg border-solid border-2 border-white hover:bg-white hover:text-black p-1 flex flex-row items-center justify-around">
