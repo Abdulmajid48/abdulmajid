@@ -82,7 +82,7 @@ const projects = [
   {
     img: "./images/todolist.png",
     name: "Todolist",
-    logo: ["./images/ejs.svg", "./images/postgresql.svg"],
+    logo: ["./images/ejs.svg", "./images/postgressql.svg"],
     description: "A Todolist built with Postgressql and Ejs.",
     github: "https://github.com/Abdulmajid48/todolist",
     server: "",
