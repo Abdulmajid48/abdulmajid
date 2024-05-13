@@ -11,11 +11,11 @@ function Homepage(props) {
       <div className="bg-img min-w-fit min-h-screen bg-cover bg-fifty flex flex-row justify-center font-serif">
         <div className="flex flex-col justify-center items-center py-8 text-rose-50 text-3xl gap-10 text-center">
           <div className="">
-            <img
+            {/* <img
               src="./images/profile.jpg"
               alt=""
               className="rounded-full h-40 w-40 object-cover"
-            />
+            /> */}
           </div>
           <div className="text-3xl sm:w-full w-11/12">
             Abdul-Majid Aladejana
