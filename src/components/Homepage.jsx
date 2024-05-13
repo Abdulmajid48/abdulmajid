@@ -20,7 +20,13 @@ function Homepage(props) {
           <div className="text-3xl sm:w-full w-11/12">
             Abdul-Majid Aladejana
           </div>
-          <div className="text-3xl w-11/12">Web developer</div>
+          <div className="text-xl w-5/6 sm:w-2/3">
+            A Front-end development enthusiast seeking an internship position to
+            leverage skills in HTML, CSS, JavaScript, and various frameworks to
+            contribute to dynamic web projects. Eager to learn and collaborate
+            in a professional environment to further enhance my expertise in web
+            development.
+          </div>
           <div className="flex flex-row justify-between text-rose-50 gap-3">
             <div className="">
               <NavLink to="https://github.com/Abdulmajid48">

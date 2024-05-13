@@ -1,13 +1,8 @@
-import Project, { projects } from "../components/Cards";
-import Navbar from "../components/Navbar";
+import Project, { projects } from "./Cards";
 
 function Projects(props) {
   return (
     <div className="  w-dvw bg-gray-500">
-      <Navbar />
-      <div className="h-16 bg-gradient-to-r from-sky-500 to-indigo-500 flex flex-row justify-center items-center text-white text-4xl">
-        Projects
-      </div>
       <div className=" flex flex-col sm:flex-row gap-6 justify-center items-center flex-wrap">
         {projects.map((project, index) => {
           return (

@@ -5,8 +5,8 @@ import { NavLink } from "react-router-dom";
 const navigation = [
   { name: "Home", href: "#", current: true, to: "/" },
   { name: "Projects", href: "#", current: false, to: "/projects" },
-  { name: "Experience", href: "#", current: false, to: "" },
-  { name: "Achievements", href: "#", current: false, to: "" },
+  // { name: "Experience", href: "#", current: false, to: "" },
+  // { name: "Achievements", href: "#", current: false, to: "" },
 ];
 
 function classNames(...classes) {
@@ -16,7 +16,10 @@ function classNames(...classes) {
 function Navbar() {
   return (
     <div className="sticky top-0 z-50">
-      <Disclosure as="nav" className="bg-gray-800">
+      <Disclosure
+        as="nav"
+        className="bg-gradient-to-r from-gray-900 to-gray-700"
+      >
         {({ open }) => (
           <div>
             <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">

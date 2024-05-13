@@ -5,7 +5,7 @@ function Project(props) {
         <img
           src={props.img}
           alt=""
-          className=" rounded-xl object-contain max-h-64 w-11/12 m-auto"
+          className=" rounded-xl object-contain max-h-60 w-11/12 m-auto"
         />
       </div>
       <div className="flex flex-col justify-center items-center p-6 pt-1">
@@ -41,6 +41,14 @@ const projects = [
     description: "The Finance Solutions For Your Business",
     github: "https://github.com/Abdulmajid48/cryptland",
     server: "https://cryptland.vercel.app/",
+  },
+  {
+    img: "./images/stract.jpg",
+    name: "Stract",
+    logo: ["./images/react.svg", "./images/tailwind.svg"],
+    description: "A Data Analysis Software For Your Business",
+    github: "https://github.com/Abdulmajid48/stract",
+    server: "https://stract.vercel.app/",
   },
   {
     img: "./images/tripace.png",
