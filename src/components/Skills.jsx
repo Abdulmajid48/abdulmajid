@@ -59,7 +59,7 @@ const languages = [
     name: "Node.js",
   },
   {
-    logo: "./images/Ejs.svg",
+    logo: "./images/ejs.svg",
     name: "Ejs",
   },
   {
