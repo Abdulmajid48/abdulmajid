@@ -8,7 +8,7 @@ import Top from "../components/Top";
 
 function Homepage(props) {
   return (
-    <div className=" h-auto border-[1px] border-[#F0BF6C] rounded-md text-[#F9F9F9] font-['raleway'] ">
+    <div className=" h-auto border-[1px] border-[#F0BF6C] rounded-md text-[#F9F9F9] font-['raleway'] overflow-hidden">
       <Navbar />
       <Top />
       <About />

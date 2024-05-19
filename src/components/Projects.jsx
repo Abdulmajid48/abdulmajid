@@ -9,7 +9,7 @@ function Projects(props) {
         Projects
       </div>
       {/* Projects Boxes */}
-      <div className="flex flex-row flex-wrap items-center justify-center gap-3 w-11/12 m-auto pb-20">
+      <div className="flex flex-row flex-wrap items-center justify-center gap-5 sm:gap-3 w-11/12 m-auto pb-20">
         {projects.map((project, index) => {
           return (
             <Project
