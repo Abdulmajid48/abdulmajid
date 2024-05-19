@@ -1,9 +1,9 @@
-// import FacebookRoundedIcon from "@mui/icons-material/FacebookRounded";
 import XIcon from "@mui/icons-material/X";
-// import InstagramIcon from "@mui/icons-material/Instagram";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import { NavLink } from "react-router-dom";
+// import FacebookRoundedIcon from "@mui/icons-material/FacebookRounded";
+// import InstagramIcon from "@mui/icons-material/Instagram";
 function Top(props) {
   return (
     <div className="flex flex-row justify-center items-center px-16 leading-loose relative min-h-[25rem] bg-[#3D3E42]">

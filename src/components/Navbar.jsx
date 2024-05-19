@@ -113,7 +113,7 @@ function Navbar(props) {
             <div>
               <img src="./images/logo.png" alt="" className="h-24" />
             </div>
-            <div className="flex flex-row justify-center gap-6 text-[#D6D6D6]">
+            <div className="flex flex-row justify-center gap-6 sm:pl-20 text-[#D6D6D6]">
               <div
                 className="hover:text-[#F9F9F9]"
                 onClick={() => {
@@ -141,7 +141,7 @@ function Navbar(props) {
             </div>
             <div>
               <NavLink to="https://drive.google.com/file/d/1-COEwJtG796gNmroKQcO1RpqudMt6r5D/view?usp=sharing">
-                <button className="bg-[#31333B] p-1 pl-3 rounded-lg focus:border-[#3D3E42] h-10 w-40">
+                <button className="bg-[#31333B] p-1 pl-3 rounded-lg focus:border-[#3D3E42] h-10 w-32">
                   Resume
                 </button>
                 {/* <input
