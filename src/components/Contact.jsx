@@ -37,7 +37,7 @@ function Contact(props) {
         </NavLink>
         <NavLink to="https://drive.google.com/file/d/1-COEwJtG796gNmroKQcO1RpqudMt6r5D/view?usp=sharing">
           <div className="flex flex-row items-center justify-center rounded-lg gap-2 w-64 md:w-72 h-12 bg-[#31333B]">
-            <img src="./images/email.svg" alt="" className="h-7" />
+            <img src="./images/resume.svg" alt="" className="h-5" />
             <p className="text-[#F0BF6C]">Resume</p>
           </div>
         </NavLink>
@@ -46,22 +46,31 @@ function Contact(props) {
       <div className="flex flex-row justify-center items-start m-auto">
         <div className="border-t-2 border-[#F0BF6C] flex-grow"></div>
         <div className="flex flex-row gap-2 font-bold sm:text-5xl text-3xl sm:-mt-7 -mt-5 sm:px-5 px-5 text-center">
+          <NavLink to="https://aladejanamajid48@gmail.com">
+            <img
+              src="./images/email.svg"
+              alt=""
+              className="h-8 sm:mt-[13px] mt-[6px]"
+            />
+          </NavLink>
           <NavLink to="https://github.com/Abdulmajid48">
             <GitHubIcon />
           </NavLink>
           <NavLink to="https://web.facebook.com/aladejana.abdulmajid">
             <FacebookRoundedIcon />
           </NavLink>
-          <img
-            src="./images/discord.svg"
-            alt=""
-            className="h-6  sm:mt-[17px] mt-[10px]"
-          />
+          <NavLink to="https://discordapp.com/users/abdulmajid48">
+            <img
+              src="./images/discord.svg"
+              alt=""
+              className="h-6 sm:mt-[18px] mt-[8px]"
+            />
+          </NavLink>
           <NavLink to="https://abdulmajid.hashnode.dev/">
             <img
               src="./images/hashnode.svg"
               alt=""
-              className="h-5 sm:mt-[19px] mt-[12px]"
+              className="h-6 sm:mt-[18px] mt-[8px]"
             />
           </NavLink>
           {/* <InstagramIcon /> */}

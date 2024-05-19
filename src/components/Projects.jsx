@@ -1,12 +1,14 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
 
-// Portfolio Section
-function Portfolio(props) {
+// Projects Section
+function Projects(props) {
   return (
-    <div className="bg-[#31333B]" id="portfolio">
-      <div className="text-center sm:text-4xl text-3xl pb-4 font-bold">Portfolio</div>
-      {/* Portfolio Boxes */}
+    <div className="bg-[#31333B]" id="projects">
+      <div className="text-center sm:text-4xl text-3xl pb-4 font-bold">
+        Projects
+      </div>
+      {/* Projects Boxes */}
       <div className="flex flex-row flex-wrap items-center justify-center gap-3 w-11/12 m-auto pb-20">
         {projects.map((project, index) => {
           return (
@@ -185,4 +187,4 @@ const projects = [
   //   },
 ];
 
-export default Portfolio;
+export default Projects;

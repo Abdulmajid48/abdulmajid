@@ -82,10 +82,10 @@ function Navbar(props) {
             <div
               className="hover:text-[#F9F9F9]"
               onClick={() => {
-                window.location.href = "#portfolio";
+                window.location.href = "#projects";
               }}
             >
-              Portfolio
+              Projects
             </div>
             <div
               className="hover:text-[#F9F9F9]"
@@ -128,10 +128,10 @@ function Navbar(props) {
               <div
                 className="hover:text-[#F9F9F9]"
                 onClick={() => {
-                  window.location.href = "#portfolio";
+                  window.location.href = "#projects";
                 }}
               >
-                Portfolio
+                Projects
               </div>
               <div
                 className="hover:text-[#F9F9F9]"
