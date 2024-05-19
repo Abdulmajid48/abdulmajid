@@ -97,11 +97,8 @@ function Navbar(props) {
             </div>
             <NavLink to="https://drive.google.com/file/d/1-COEwJtG796gNmroKQcO1RpqudMt6r5D/view?usp=sharing">
               {" "}
-              <button className=" p-1 pl-3 rounded-lg bg-[#31333B]">
-                Resume
-              </button>
+              <button className="hover:text-[#F9F9F9]">Resume</button>
             </NavLink>
-
             {/* <input
               type="search"
               placeholder="Search"
